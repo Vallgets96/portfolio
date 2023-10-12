@@ -55,6 +55,9 @@ function Footer(){
         <div className="End text-gray-400 flex flex-col justify-center text-center pt-20 pb-8 p-7" >
                 <p>2023 All rights reserved | This template is made with<BsFillSuitHeartFill/>by naveen</p>
             </div>
+            <div className="fill-none stroke-red-400 stroke-width:2; stroke-dash" >
+
+            </div>
         </footer>
     )
 }
