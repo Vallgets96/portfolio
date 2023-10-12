@@ -1,5 +1,5 @@
 import AOS from "aos"
-import 'aos/dist/aos.css'
+
 function About (){
     AOS.init()
     return(
