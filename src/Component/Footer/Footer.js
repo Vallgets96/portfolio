@@ -18,7 +18,7 @@ function Footer(){
             
 
             <div className="Two flex flex-col gap-3 ">
-                <Link className="text-[24px] font-semibold pb-4">Links</Link>
+                <div className="text-[24px] font-semibold pb-4">Links</div>
                 <Link to="Home" spy={true} smooth={true}  offset={-50}  duration={1000} className="text-gray-400 flex items-center gap-3"><BiSolidSend className="text-[18px]"/>Home</Link>
                 <Link to="About" spy={true} smooth={true}  offset={-50}  duration={1000} className="text-gray-400 flex items-center gap-3"><BiSolidSend className="text-[18px]"/>About</Link>
                 <Link to="Education" spy={true} smooth={true}  offset={-50}  duration={1000} className="text-gray-400 flex items-center gap-3"><BiSolidSend className="text-[18px]"/>Education</Link>
