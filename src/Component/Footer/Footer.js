@@ -1,5 +1,5 @@
 import AOS from "aos"
-import 'aos/dist/aos.css'
+
 import { BsFillCircleFill } from "react-icons/bs";
 import { FaEnvelope } from "react-icons/fa";
 import { FaMapMarkerAlt } from "react-icons/fa";

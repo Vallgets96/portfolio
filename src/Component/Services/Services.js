@@ -1,5 +1,5 @@
 import AOS from "aos"
-import 'aos/dist/aos.css'
+
 import { FaPanorama } from "react-icons/fa6";
 import { AiFillSketchCircle } from "react-icons/ai";
 import { MdOutlineImportantDevices } from "react-icons/md";

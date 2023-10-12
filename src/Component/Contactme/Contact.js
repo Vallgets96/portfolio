@@ -1,5 +1,5 @@
 import AOS from "aos"
-import 'aos/dist/aos.css'
+
 import { IoCall } from "react-icons/io5";
 import { FaMapSigns } from "react-icons/fa";
 import { BsFillCircleFill } from "react-icons/bs";

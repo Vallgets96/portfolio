@@ -1,5 +1,5 @@
 import AOS from "aos"
-import 'aos/dist/aos.css'
+
 import bgimg from "../img1/bg_1.jpg"
 function Freelancing (){
     AOS.init()

@@ -1,5 +1,5 @@
 import AOS from "aos"
-import 'aos/dist/aos.css'
+
 import Skillim from "../skillimg/Skimg";
 function Skills() {
   AOS.init()
