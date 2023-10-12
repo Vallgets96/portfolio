@@ -9,7 +9,8 @@ import { BsFillSuitHeartFill } from "react-icons/bs";
 import { BsInstagram } from "react-icons/bs";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaFacebookF } from "react-icons/fa";
-import { Link } from "react-scroll";
+import { Link } from 'react-scroll';
+
 function Footer(){
     AOS.init()
     return(
