@@ -1,10 +1,12 @@
 import AOS from "aos"
-
+import { useEffect } from "react"
 function About (){
-    AOS.init()
+    useEffect(()=>{
+        AOS.init({duration:"3000"})
+    },[])
     return(
         <div className="bg-black relative text-white" id="About">
-            <div className="p-8 pl-5 flex flex-col gap-8 md:pl-14" data-aos="fade-up" data-aos-duration="1500">
+            <div className="p-8 pl-5 flex flex-col gap-8 md:pl-14" data-aos="fade-up" >
             <h1 className="absolute font-bold text-[28px] opacity-10 left-[12px] md:text-[53px] md:left-[8px] lg:text-[72px]  lg:top-[28px] lg:left-[26px] xl:text-[92px] xl:left-[14px] xl:top-[4px] ">About</h1>
             <h1 className=" relative font-bold text-[38px] z-40 md:text-[50px]">About Me</h1>
             

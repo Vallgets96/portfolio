@@ -11,8 +11,7 @@ function Eduction() {
         </h1>
         <h1 className="font-bold text-[38px] z-40  md:text-[50px]">Eduction</h1>
         <p className="text-gray-400 ">
-          A small river named Duden flows by their place and supplies it with
-          the necessary regelialia.
+        Committed to lifelong learning and continuous self-improvement through formal education, training
         </p>  
       </div>
       </div>

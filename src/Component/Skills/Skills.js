@@ -13,18 +13,18 @@ function Skills() {
             My Skills
           </h1>
           <p className="text-gray-400 pb-20 p-3">
-            A small river named Duden flows by their place and supplies
+            Here is my some skills are showcased here 
           </p>
         </div>
       </div>
 
-      <div className=" lg:p-7  xl:p-14" data-aos="fade-up" data-aos-duration="1500">
+      <div className=" lg:p-7  xl:p-14" >
         <div className="grid grid-cols-2 gap-x-44 gap-y-16  xl:grid-cols-4 place-items-center font-medium text-[17px] pl-32 pr-28 md:gap-[100px] md:gap-y-14 md:grid-cols-3">
           {
             Skillim.map((val)=>{
               return(
-              <div>
-              <div className="bg-[#000000] flex flex-col justify-center text-[13px] items-center h-[120px] w-[140px] rounded shadow-lg shadow-slate-300"><img className=" w-[68px] " src={val.Project} alt=""></img><div className="pt-4">{val.skill}</div></div>
+              <div  key={val.id} data-aos="fade-up" data-aos-duration="1500">
+              <div className="bg-[#000000] flex flex-col justify-center text-[13px] items-center h-[120px] w-[140px] rounded shadow-lg shadow-slate-300" ><img className=" w-[68px] " src={val.Project} alt="img1" ></img><div className="pt-4">{val.skill}</div></div>
               </div>
             )})
           }

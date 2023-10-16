@@ -5,15 +5,18 @@ import { FaMapSigns } from "react-icons/fa";
 import { BsFillCircleFill } from "react-icons/bs";
 import { BiLogoTelegram } from "react-icons/bi";
 import { FaLinkedinIn } from "react-icons/fa";
+import { useEffect } from "react";
 function Contact (){
-    AOS.init()
+    useEffect(()=>{
+        AOS.init({duration:"3000"})
+    },[])
     return(
         <div className="bg-black  text-white flex flex-col gap-24 pt-52 " id="Contact">
             <div className=" pt-[80px]" data-aos="fade-up" data-aos-duration="1500" >
                 <div className="text-center relative">
                 <h1 className="absolute font-bold text-[30px] opacity-10 left-[30%] md:text-[54px] md:left-[238px] lg:text-[70px] lg:left-[32%] xl:text-[100px] xl:left-[32%]  ">Contact Me</h1>
                     <h1 className="font-bold text-[38px] z-40 pb-4 md:text-[50px]"> Contact Me</h1>
-                    <p className="text-gray-400 p-2" >A small river named Duden flows by their place and supplies</p>
+                    <p className="text-gray-400 p-2" >My contact details are given below</p>
                 </div>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-24 md:p-16 lg:gap-3 place-items-center" data-aos="fade-up" data-aos-duration="1500" >
@@ -48,7 +51,7 @@ function Contact (){
                         <input className="mt-6 w-56 h-[40px] border border-gray-400 rounded-md " type="text" placeholder="  Your name"></input>
                         <input className=" w-56 h-[40px] border border-gray-400 rounded-md" type="text" placeholder="  Mail"></input>
                         <input className=" w-56 h-[40px] border border-gray-400 rounded-md" type="text" placeholder="  Subject"></input>
-                        <textarea class="resize-none border rounded-md p-2 w-56  border-gray-400 mb-4" rows="4" placeholder="Messege"></textarea>
+                        <textarea className="resize-none border rounded-md p-2 w-56  border-gray-400 mb-4" rows="4" placeholder="Messege"></textarea>
                         <button className=" bg-[#ffbd39] rounded-r-full text-black rounded-l-full w-[170px] h-[38px] font-bold text-[11px] tracking-[2px] mb-4"> SEND MESSAGE </button>
 
                     </form>

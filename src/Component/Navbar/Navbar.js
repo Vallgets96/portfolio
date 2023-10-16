@@ -74,27 +74,27 @@ function Navbar() {
         spy={true}
         smooth={true} 
         offset={-50} 
-        duration={1000}>Home</Link>
+        duration={1000} onClick={movement}>Home</Link>
         
         <Link className="cursor-pointer "  to="About"
         spy={true} 
         smooth={true} 
         offset={-50} 
-        duration={1000}>About
+        duration={1000} onClick={movement} >About
         </Link>
 
         <Link className="cursor-pointer" to="Education"
         spy={true} 
         smooth={true} 
         offset={-60} 
-        duration={1000}>Education
+        duration={1000} onClick={movement} >Education
         </Link>
 
         <Link className="cursor-pointer" to="Services"
         spy={true} 
         smooth={true} 
         offset={-120} 
-        duration={1000}>Services
+        duration={1000} onClick={movement} >Services
         </Link>
 
         <Link className="cursor-pointer" to="Skills"
@@ -107,14 +107,14 @@ function Navbar() {
         <Link className="cursor-pointer" to="Projects"
         spy={true} 
         smooth={true}  
-        duration={1000}>Projects
+        duration={1000} onClick={movement} >Projects
         </Link>
         
         <Link className="cursor-pointer" to="Contact"
         spy={true} 
         smooth={true} 
         offset={-50} 
-        duration={1000}>Contact
+        duration={1000} onClick={movement} >Contact
         </Link>
       </div>
       </div>
