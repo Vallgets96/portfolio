@@ -67,7 +67,7 @@ function Navbar() {
         
       </div>
       </div>
-    <div className={snavbar ? " fixed top-16 w-full p-5 list-none  bg-[#ffbd39] text-center  transition-all duration-1000 delay-75 h-90 z-10" : "fixed -top-full text-center w-full z-10 textransition-all duration-1000  list-none delay-75 "}>
+    <div className={snavbar ? " fixed top-16 w-full p-5 list-none  bg-[#ffbd39] text-center  transition-all duration-1500 delay-75 h-90 z-10" : "fixed -top-full text-center w-full z-10 transition-all duration-1500  list-none delay-75 "}>
 
       <div className="flex flex-col gap-7">
       <Link className="cursor-pointer " to="Home"
