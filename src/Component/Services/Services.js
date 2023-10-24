@@ -10,9 +10,9 @@ function Services (){
         <div>
             <div className=" bg-black text-white">
                <div className="text-center relative p-5 " data-aos="fade-up" data-aos-duration="1500" id="Services">
-                    <h1 className="absolute font-bold text-[30px] opacity-20 left-[33%] md:text-[55px] md:left-[36%] lg:text-[71px] lg:left-[37%] xl:text-[100px] xl:left-[490px] xl:bottom-[2px]">Services</h1>
+                    <h1 className="absolute font-bold text-[30px] opacity-20 left-[33%] md:text-[55px] md:left-[36%] lg:text-[71px] lg:left-[37%] xl:text-[100px] xl:left-[520px] xl:bottom-[8px]">Services</h1>
                     <h1 className="font-bold text-[38px] z-40 pb-4 md:text-[50px]">Services</h1>
-                    <p className="text-gray-400 text-[16px]" >Some of my services im mastered</p>
+                    <p className="text-gray-400 text-[16px] xl:pt-31" >Some of my services im mastered</p>
                 </div>
             </div>
 

@@ -14,7 +14,7 @@ function Contact (){
         <div className="bg-black  text-white flex flex-col gap-24 pt-52 " id="Contact">
             <div className=" pt-[80px]" data-aos="fade-up" data-aos-duration="1500" >
                 <div className="text-center relative">
-                <h1 className="absolute font-bold text-[30px] opacity-10 left-[30%] md:text-[54px] md:left-[238px] lg:text-[70px] lg:left-[32%] xl:text-[100px] xl:left-[32%]  ">Contact Me</h1>
+                <h1 className="absolute font-bold text-[30px] opacity-10 left-[30%] md:text-[54px] md:left-[238px] lg:text-[70px] lg:left-[32%] xl:text-[100px] xl:left-[32%] xl:bottom-2  ">Contact Me</h1>
                     <h1 className="font-bold text-[38px] z-40 pb-4 md:text-[50px]"> Contact Me</h1>
                     <p className="text-gray-400 p-2" >My contact details are given below</p>
                 </div>
