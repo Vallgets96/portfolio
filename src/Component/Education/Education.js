@@ -5,10 +5,10 @@ function Eduction() {
   return (
     <main>
       <div className="  bg-black text-white" id="Education">
-      <div className="relative flex flex-col gap-10 text-center" data-aos="fade-up" data-aos-duration="1500">
-       <h1 className="absolute font-bold text-[30px] flex justify-center items-center text-center opacity-10 left-[96px]  md:text-[54px] md:left-[272px]  lg:text-[72px] lg:left-[370px] xl:text-[100px] lg:top-4 xl:left-[520px] xl:bottom-[2px]  ">
+      <div className="relative flex flex-col  gap-10 text-center" data-aos="fade-up" data-aos-duration="1500">
+       <h1 className="absolute font-bold text-[30px] flex justify-center items-center text-center opacity-20 left-[96px]  md:text-[54px] md:left-[272px]  lg:text-[72px] lg:left-[370px] xl:text-[100px] lg:top-4 xl:left-[560px] xl:bottom-[65px]  ">
           Eduction
-        </h1>a
+        </h1>
         <h1 className="font-bold text-[38px] z-40  md:text-[50px]">Eduction</h1>
         <p className="text-gray-400 ">
         Committed to lifelong learning and continuous self-improvement through formal education, training

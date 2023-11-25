@@ -8,6 +8,8 @@ import skill7 from "../../img1/git.png"
 import skill8 from "../../img1/node.png"
 import skill9 from "../../img1/redux.png"
 import skill10 from "../../img1/Express.png"
+import skill11 from "../../img1/bootstrap.png"
+import skill12 from "../../img1/mongodb.png"
 
 const Skillim = [
     {
@@ -56,6 +58,19 @@ const Skillim = [
         id:10,
         Project:skill10,
         skill : "Expressjs"
-    }]
+    },
+    {
+        id:11,
+        Project:skill11,
+        skill : "Bootstrap"
+
+    },
+    {
+        id:12,
+        Project:skill12,
+        skill : "Mongodb"
+
+    },
+    ]
 
     export default Skillim
